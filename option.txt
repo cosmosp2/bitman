@@ -15,10 +15,6 @@ caution_trillion=True
 API_KEY=
 API_SECRET_KEY=
 
-
-
-
-
 [설명]
 main_fiat=메인 화폐 (KRW,BTC,USDT) 중 선택 
 sel_coin = 거래할 코인 혹은 코인들 지정 예) ETH,BTC,XRP  혹은 ALL = 모두다
