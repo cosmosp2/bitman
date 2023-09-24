@@ -12,6 +12,7 @@ buy_lower_point = 1.0005
 force_trade=False
 sell_remaining_amount=True
 caution_trillion=True
+Limit_dayper=17.5
 API_KEY=
 API_SECRET_KEY=
 
