@@ -2,11 +2,11 @@
 main_fiat=KRW
 sel_coin =ALL
 del_sel_coin=
-limit_trade_amount = 13000000000
+limit_trade_volume_count = 17
 e_point = 1.0017
 api_rest_time = 0.32
 Lock_balance = 0
-limit_buy_time = 291
+limit_buy_time = 192
 TRADE_count = 0
 buy_lower_point = 1.0005
 force_trade=False
@@ -21,7 +21,7 @@ API_SECRET_KEY=
 main_fiat=메인 화폐 (KRW,BTC,USDT) 중 선택 
 sel_coin = 거래할 코인 혹은 코인들 지정 예) ETH,BTC,XRP  혹은 ALL = 모두다
 del_sel_coin=제외할 코인  예) ETH,BTC,XRP
-limit_trade_amount = 거래량 하위 제한 (메인 화폐 단위로) 
+limit_trade_volume_count = 거래량 순위 제한, 0=제한 없음 
 e_point = 거래 결산 포인트 백분율 지정, 예) 0.23 포인트 = 1.0023
 api_rest_time = api 응답 여윳 값 , 에러 최소화 하기 위한
 Lock_balance = 거래할 자산값 고정 , 0=현재 지속 자산 
