@@ -13,6 +13,7 @@ force_trade=False
 sell_remaining_amount=True
 caution_trillion=True
 Limit_dayper=17.5
+accept_minuate_per=True
 Stop_lose=0
 API_KEY=
 API_SECRET_KEY=
@@ -32,6 +33,7 @@ force_trade= 지정한 코인중 가장 거래량 높은 순위의 화폐를 강
 caution_trillion=주의 및 거래 마감 코인 거래 제한 (True,False)
 sell_remaining_amount=구매 취소시 잔량 정리 (True,False)
 Limit_dayper=전일대비 퍼센티지 상한 (예: 17.5 = 17.5 퍼센티지 이상은 거래 제한)
+accept_minuate_per=구매 하강 가격을 그래프에 따라 자동 조정 할지에 대한 여부 (True,False)
 Stop_lose=구매 후 실제 매수 값보다 가격이 더 떨어 지는 경우 시장가 매도 및 정리 (예: 1.0023 = 매수가격보다 0.023 퍼센트 하락시 시장가 매각) 0 = 설정 안함  
 API_KEY=업비트 계정 정보에서 만든 api 공개 키문장
 API_SECRET_KEY=업비트 계정 정보에서 만든 api 공개 키문장 의 secret 키문장
